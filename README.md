@@ -248,7 +248,7 @@
 </svg>
 </div>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People%20with%20professions/Man%20Technologist%20Light%20Skin%20Tone.png" width="30"/> About Me
+## 👨‍💻 About Me
 
 ```typescript
 const clintmadeit = {
@@ -384,15 +384,18 @@ const clintmadeit = {
 
 Cloud-native travel booking platform — hotels, flights, SGR ticketing, Airbnb-style listings, AI recommendations, loyalty program, and corporate travel tools.
 
-**Stack:**
+<br/>
+
 ![Next.js](https://img.shields.io/badge/-Next.js-0a0a1a?style=flat-square&logo=next.js&logoColor=white)
 ![NestJS](https://img.shields.io/badge/-NestJS-0a0a1a?style=flat-square&logo=nestjs&logoColor=ec4899)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-0a0a1a?style=flat-square&logo=postgresql&logoColor=3b82f6)
 ![Docker](https://img.shields.io/badge/-Docker-0a0a1a?style=flat-square&logo=docker&logoColor=06b6d4)
 ![Redis](https://img.shields.io/badge/-Redis-0a0a1a?style=flat-square&logo=redis&logoColor=ec4899)
 
+<br/>
+
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/luzora)
-[![Live Site](https://img.shields.io/badge/Live-luzoratravel.com-06b6d4?style=flat-square&logo=vercel&logoColor=white)](https://luzoratravel.com)
+[![Live Site](https://img.shields.io/badge/🌐_luzoratravel.com-06b6d4?style=flat-square&logoColor=white)](https://luzoratravel.com)
 
 </td>
 <td width="50%" valign="top">
@@ -405,14 +408,17 @@ Cloud-native travel booking platform — hotels, flights, SGR ticketing, Airbnb-
 
 Concierge healthcare platform for a US-based clinic — in-home visits, telemedicine, booking, patient portal, and QR-code scheduling. Live in production.
 
-**Stack:**
+<br/>
+
 ![Next.js](https://img.shields.io/badge/-Next.js-0a0a1a?style=flat-square&logo=next.js&logoColor=white)
 ![Supabase](https://img.shields.io/badge/-Supabase-0a0a1a?style=flat-square&logo=supabase&logoColor=4ade80)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-0a0a1a?style=flat-square&logo=typescript&logoColor=3b82f6)
 ![Vercel](https://img.shields.io/badge/-Vercel-0a0a1a?style=flat-square&logo=vercel&logoColor=white)
 
+<br/>
+
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/halihealth)
-[![Live Site](https://img.shields.io/badge/Live-halihealth.net-06b6d4?style=flat-square&logo=vercel&logoColor=white)](https://halihealth.net)
+[![Live Site](https://img.shields.io/badge/🌐_halihealth.net-06b6d4?style=flat-square&logoColor=white)](https://halihealth.net)
 
 </td>
 </tr>
@@ -427,14 +433,17 @@ Concierge healthcare platform for a US-based clinic — in-home visits, telemedi
 
 Agri-tech e-marketplace for poultry farmers — mobile app, e-commerce website, admin dashboard, NestJS API, WhatsApp integration, and farmer group management.
 
-**Stack:**
+<br/>
+
 ![React Native](https://img.shields.io/badge/-React_Native-0a0a1a?style=flat-square&logo=react&logoColor=06b6d4)
 ![NestJS](https://img.shields.io/badge/-NestJS-0a0a1a?style=flat-square&logo=nestjs&logoColor=ec4899)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0a0a1a?style=flat-square&logo=mongodb&logoColor=4ade80)
 ![Expo](https://img.shields.io/badge/-Expo-0a0a1a?style=flat-square&logo=expo&logoColor=white)
 
+<br/>
+
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/e-poultry)
-[![Live Site](https://img.shields.io/badge/Live-e--poultry.com-06b6d4?style=flat-square&logo=vercel&logoColor=white)](https://e-poultry.com)
+[![Live Site](https://img.shields.io/badge/🌐_e--poultry.com-06b6d4?style=flat-square&logoColor=white)](https://e-poultry.com)
 
 </td>
 <td width="50%" valign="top">
@@ -447,11 +456,14 @@ Agri-tech e-marketplace for poultry farmers — mobile app, e-commerce website, 
 
 Multi-tenant cleaning services platform — customer PWA, field tech PWA, owner dashboard, and NestJS API in a Turborepo monorepo with Docker + Caddy deployment.
 
-**Stack:**
+<br/>
+
 ![NestJS](https://img.shields.io/badge/-NestJS-0a0a1a?style=flat-square&logo=nestjs&logoColor=ec4899)
 ![Docker](https://img.shields.io/badge/-Docker-0a0a1a?style=flat-square&logo=docker&logoColor=06b6d4)
 ![Turborepo](https://img.shields.io/badge/-Turborepo-0a0a1a?style=flat-square&logo=turborepo&logoColor=ec4899)
 ![pnpm](https://img.shields.io/badge/-pnpm-0a0a1a?style=flat-square&logo=pnpm&logoColor=f59e0b)
+
+<br/>
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/jnbcleaners)
 
@@ -468,11 +480,14 @@ Multi-tenant cleaning services platform — customer PWA, field tech PWA, owner 
 
 Logistics and delivery platform — merchant mobile app for managing shipments, live tracking, delivery invoicing, and push notifications. Built with Expo.
 
-**Stack:**
+<br/>
+
 ![Expo](https://img.shields.io/badge/-Expo-0a0a1a?style=flat-square&logo=expo&logoColor=white)
 ![React Native](https://img.shields.io/badge/-React_Native-0a0a1a?style=flat-square&logo=react&logoColor=06b6d4)
 ![Node.js](https://img.shields.io/badge/-Node.js-0a0a1a?style=flat-square&logo=node.js&logoColor=4ade80)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-0a0a1a?style=flat-square&logo=typescript&logoColor=3b82f6)
+
+<br/>
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/smart-drop)
 
@@ -487,11 +502,14 @@ Logistics and delivery platform — merchant mobile app for managing shipments, 
 
 Production e-commerce platform built for the Kenyan market — M-Pesa STK Push, Google OAuth, guest cart merge, admin dashboard. Deployed on Render + Vercel.
 
-**Stack:**
+<br/>
+
 ![React](https://img.shields.io/badge/-React-0a0a1a?style=flat-square&logo=react&logoColor=06b6d4)
 ![Node.js](https://img.shields.io/badge/-Node.js-0a0a1a?style=flat-square&logo=node.js&logoColor=4ade80)
 ![MongoDB](https://img.shields.io/badge/-MongoDB-0a0a1a?style=flat-square&logo=mongodb&logoColor=4ade80)
 ![M-Pesa](https://img.shields.io/badge/-M--Pesa-0a0a1a?style=flat-square&logoColor=4ade80)
+
+<br/>
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/soteria)
 
@@ -526,29 +544,29 @@ Production e-commerce platform built for the Kenyan market — M-Pesa STK Push, 
 
 <div align="center">
 
-<a href="https://github.com/clintmadeit">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=clintmadeit&show_icons=true&theme=tokyonight&title_color=8b5cf6&icon_color=06b6d4&text_color=94a3b8&bg_color=0a0a1a&border_color=1e293b&count_private=true&include_all_commits=true&rank_icon=github&hide_border=false" alt="Clinton's GitHub Stats"/>
-</a>
-&nbsp;
-<a href="https://github.com/clintmadeit">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clintmadeit&layout=compact&theme=tokyonight&title_color=8b5cf6&text_color=94a3b8&bg_color=0a0a1a&border_color=1e293b&langs_count=8&hide=html,css&hide_border=false" alt="Top Languages"/>
+<!-- Stats via shields.io — always renders on GitHub -->
+![Total Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fclintmadeit&query=%24.public_repos&label=Public+Repos&color=8b5cf6&style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)
+![Followers](https://img.shields.io/github/followers/clintmadeit?label=Followers&style=for-the-badge&color=06b6d4&logo=github&logoColor=white&labelColor=0a0a1a)
+![Profile Views](https://komarev.com/ghpvc/?username=clintmadeit&color=ec4899&style=for-the-badge&label=Profile+Views)
+
+<br/>
+
+<!-- Streak stats — demolab.com is on GitHub's allowlist -->
+<a href="https://git.io/streak-stats">
+<img src="https://streak-stats.demolab.com?user=clintmadeit&theme=tokyonight&hide_border=false&border=1E293B&stroke=1E293B&ring=8B5CF6&fire=EC4899&currStreakLabel=06B6D4&sideLabels=94A3B8&dates=475569&currStreakNum=FFFFFF&sideNums=FFFFFF&background=0A0A1A&card_width=700" alt="GitHub Streak Stats" width="700"/>
 </a>
 
 <br/><br/>
 
-<a href="https://git.io/streak-stats">
-  <img src="https://streak-stats.demolab.com?user=clintmadeit&theme=tokyonight&hide_border=false&border=1E293B&stroke=1E293B&ring=8B5CF6&fire=EC4899&currStreakLabel=06B6D4&sideLabels=94A3B8&dates=475569&currStreakNum=FFFFFF&sideNums=FFFFFF&background=0A0A1A" alt="GitHub Streak"/>
+<!-- Skill icons grid — hosted on GitHub itself, always works -->
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=nextjs,react,ts,nodejs,nestjs,postgres,mongo,docker&theme=dark&perline=8" alt="Core Skills"/>
 </a>
-
-</div>
 
 <br/>
 
-<!-- Contribution graph — pinned to a stable deployment -->
-<div align="center">
-
-<a href="https://github.com/clintmadeit">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=clintmadeit&bg_color=0a0a1a&color=8b5cf6&line=06b6d4&point=ec4899&area=true&area_color=1e1b4b&hide_border=true&radius=6&custom_title=Contribution%20Activity" alt="Activity Graph"/>
+<a href="https://skillicons.dev">
+  <img src="https://skillicons.dev/icons?i=redis,supabase,vercel,github,figma,tailwind,vite,expo&theme=dark&perline=8" alt="More Skills"/>
 </a>
 
 </div>
