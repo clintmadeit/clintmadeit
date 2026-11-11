@@ -1,0 +1,53 @@
+name: 👋 Welcome New Contributors
+
+on:
+  issues:
+    types: [opened]
+  pull_request:
+    types: [opened]
+  fork:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  greet-issue:
+    name: Greet new issue author
+    if: github.event_name == 'issues'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send welcome message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const author = context.payload.issue.user.login;
+            const issueNumber = context.payload.issue.number;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issueNumber,
+              body: `👋 Hey @${author}, thanks for opening an issue!\n\nI'll get back to you soon. In the meantime, feel free to reach out at [clintonbrirdley@gmail.com](mailto:clintonbrirdley@gmail.com) or connect on [LinkedIn](https://www.linkedin.com/in/johnclinton-luseno/).\n\n— **clintmadeit** 🚀`
+            });
+
+  greet-pr:
+    name: Greet new PR author
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Send welcome message
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const author = context.payload.pull_request.user.login;
+            const prNumber = context.payload.pull_request.number;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: `🎉 Thanks for the PR, @${author}!\n\nI'll review this shortly. Great to have you contributing.\n\n— **clintmadeit** 🚀`
+            });

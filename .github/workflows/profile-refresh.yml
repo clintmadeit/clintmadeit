@@ -1,0 +1,84 @@
+name: 🌐 Profile Health Check
+
+on:
+  schedule:
+    # Runs every Monday at 8:00 AM UTC
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    name: Check all profile links are live
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Extract and check links from README
+        run: |
+          echo "🔍 Extracting links from README.md..."
+
+          node -e "
+            const fs = require('fs');
+            const readme = fs.readFileSync('README.md', 'utf8');
+            const urlRegex = /https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)/g;
+            const urls = [...new Set(readme.match(urlRegex) || [])];
+            // Filter out badge/shield URLs and GitHub internal URLs
+            const filtered = urls.filter(u =>
+              !u.includes('shields.io') &&
+              !u.includes('img.shields') &&
+              !u.includes('readme-typing-svg') &&
+              !u.includes('streak-stats.demolab') &&
+              !u.includes('github-readme-stats.vercel') &&
+              !u.includes('git.io')
+            );
+            console.log('Links to check:');
+            filtered.forEach(u => console.log(' -', u));
+            fs.writeFileSync('links.json', JSON.stringify(filtered));
+          "
+
+      - name: Check link status
+        run: |
+          node -e "
+            const https = require('https');
+            const http = require('http');
+            const links = require('./links.json');
+
+            async function checkUrl(url) {
+              return new Promise((resolve) => {
+                const client = url.startsWith('https') ? https : http;
+                const req = client.get(url, { timeout: 5000 }, (res) => {
+                  resolve({ url, status: res.statusCode, ok: res.statusCode < 400 });
+                });
+                req.on('error', () => resolve({ url, status: 'ERROR', ok: false }));
+                req.on('timeout', () => { req.destroy(); resolve({ url, status: 'TIMEOUT', ok: false }); });
+              });
+            }
+
+            (async () => {
+              const results = await Promise.all(links.map(checkUrl));
+              let allOk = true;
+              results.forEach(r => {
+                const icon = r.ok ? '✅' : '❌';
+                console.log(\`\${icon} [\${r.status}] \${r.url}\`);
+                if (!r.ok) allOk = false;
+              });
+              if (!allOk) {
+                console.log('\n⚠️  Some links may be down. Review and update README.md.');
+              } else {
+                console.log('\n✅ All links are healthy!');
+              }
+            })();
+          "
+
+      - name: Post summary
+        run: |
+          echo "## Profile Health Check" >> $GITHUB_STEP_SUMMARY
+          echo "- 🕐 Checked at: $(date -u)" >> $GITHUB_STEP_SUMMARY
+          echo "- 📄 README links validated" >> $GITHUB_STEP_SUMMARY
