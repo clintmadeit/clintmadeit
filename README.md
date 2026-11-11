@@ -209,11 +209,11 @@
 <br/>
 
 <!-- Profile view counter + social proof -->
-![Profile Views](https://komarev.com/ghpvc/?username=clintmadeit&color=8b5cf6&style=flat-square&label=Profile+Views)
+[![Profile Views](https://komarev.com/ghpvc/?username=clintmadeit&color=8b5cf6&style=flat-square&label=Profile+Views)](https://github.com/clintmadeit)
 &nbsp;&nbsp;
-[![GitHub followers](https://img.shields.io/github/followers/clintmadeit?style=flat-square&color=06b6d4&labelColor=0f0f23&label=Followers)](https://github.com/clintmadeit?tab=followers)
+[![GitHub followers](https://img.shields.io/github/followers/clintmadeit?style=flat-square&color=06b6d4&labelColor=0f0f23&label=Followers&logo=github&logoColor=white)](https://github.com/clintmadeit?tab=followers)
 &nbsp;&nbsp;
-[![LinkedIn](https://img.shields.io/badge/Let's_connect-LinkedIn-3b82f6?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnclinton-luseno/)
+[![LinkedIn](https://img.shields.io/badge/Let's_connect-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/johnclinton-luseno/)
 
 </div>
 
@@ -392,6 +392,7 @@ Cloud-native travel booking platform — hotels, flights, SGR ticketing, Airbnb-
 ![Redis](https://img.shields.io/badge/-Redis-0a0a1a?style=flat-square&logo=redis&logoColor=ec4899)
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/luzora)
+[![Live Site](https://img.shields.io/badge/Live-luzoratravel.com-06b6d4?style=flat-square&logo=vercel&logoColor=white)](https://luzoratravel.com)
 
 </td>
 <td width="50%" valign="top">
@@ -433,6 +434,7 @@ Agri-tech e-marketplace for poultry farmers — mobile app, e-commerce website, 
 ![Expo](https://img.shields.io/badge/-Expo-0a0a1a?style=flat-square&logo=expo&logoColor=white)
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/e-poultry)
+[![Live Site](https://img.shields.io/badge/Live-e--poultry.com-06b6d4?style=flat-square&logo=vercel&logoColor=white)](https://e-poultry.com)
 
 </td>
 <td width="50%" valign="top">
@@ -524,22 +526,30 @@ Production e-commerce platform built for the Kenyan market — M-Pesa STK Push, 
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=clintmadeit&show_icons=true&theme=transparent&title_color=8b5cf6&icon_color=06b6d4&text_color=94a3b8&border_color=1e293b&count_private=true&include_all_commits=true&rank_icon=github" />
+<a href="https://github.com/clintmadeit">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=clintmadeit&show_icons=true&theme=tokyonight&title_color=8b5cf6&icon_color=06b6d4&text_color=94a3b8&bg_color=0a0a1a&border_color=1e293b&count_private=true&include_all_commits=true&rank_icon=github&hide_border=false" alt="Clinton's GitHub Stats"/>
+</a>
 &nbsp;
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clintmadeit&layout=compact&theme=transparent&title_color=8b5cf6&text_color=94a3b8&border_color=1e293b&langs_count=8&hide=html,css" />
+<a href="https://github.com/clintmadeit">
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=clintmadeit&layout=compact&theme=tokyonight&title_color=8b5cf6&text_color=94a3b8&bg_color=0a0a1a&border_color=1e293b&langs_count=8&hide=html,css&hide_border=false" alt="Top Languages"/>
+</a>
 
 <br/><br/>
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=clintmadeit&theme=transparent&hide_border=false&border=1E293B&stroke=1e293b&ring=8B5CF6&fire=EC4899&currStreakLabel=06B6D4&sideLabels=94A3B8&dates=475569&currStreakNum=FFFFFF&sideNums=FFFFFF&background=00000000)](https://git.io/streak-stats)
+<a href="https://git.io/streak-stats">
+  <img src="https://streak-stats.demolab.com?user=clintmadeit&theme=tokyonight&hide_border=false&border=1E293B&stroke=1E293B&ring=8B5CF6&fire=EC4899&currStreakLabel=06B6D4&sideLabels=94A3B8&dates=475569&currStreakNum=FFFFFF&sideNums=FFFFFF&background=0A0A1A" alt="GitHub Streak"/>
+</a>
 
 </div>
 
 <br/>
 
-<!-- Contribution graph -->
+<!-- Contribution graph — pinned to a stable deployment -->
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=clintmadeit&bg_color=0a0a1a&color=8b5cf6&line=06b6d4&point=ec4899&area=true&area_color=3b82f6&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<a href="https://github.com/clintmadeit">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=clintmadeit&bg_color=0a0a1a&color=8b5cf6&line=06b6d4&point=ec4899&area=true&area_color=1e1b4b&hide_border=true&radius=6&custom_title=Contribution%20Activity" alt="Activity Graph"/>
+</a>
 
 </div>
 
