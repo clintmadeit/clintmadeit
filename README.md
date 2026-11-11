@@ -466,6 +466,7 @@ Multi-tenant cleaning services platform — customer PWA, field tech PWA, owner 
 <br/>
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/jnbcleaners)
+[![Live Site](https://img.shields.io/badge/🌐_app.jnbcleaners.com-06b6d4?style=flat-square&logoColor=white)](https://app.jnbcleaners.com)
 
 </td>
 </tr>
@@ -512,6 +513,7 @@ Production e-commerce platform built for the Kenyan market — M-Pesa STK Push, 
 <br/>
 
 [![View Repo](https://img.shields.io/badge/View_Repo-8b5cf6?style=flat-square&logo=github&logoColor=white)](https://github.com/clintmadeit/soteria)
+[![Live Site](https://img.shields.io/badge/🌐_soteriaelectronics.co.ke-06b6d4?style=flat-square&logoColor=white)](https://soteriaelectronics.co.ke)
 
 </td>
 </tr>
@@ -545,8 +547,8 @@ Production e-commerce platform built for the Kenyan market — M-Pesa STK Push, 
 <div align="center">
 
 <!-- Stats via shields.io — always renders on GitHub -->
-![Total Commits](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fclintmadeit&query=%24.public_repos&label=Public+Repos&color=8b5cf6&style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)
-![Followers](https://img.shields.io/github/followers/clintmadeit?label=Followers&style=for-the-badge&color=06b6d4&logo=github&logoColor=white&labelColor=0a0a1a)
+![Total Repos](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Fclintmadeit&query=%24.public_repos&label=Public+Repos&color=8b5cf6&style=for-the-badge&logo=github&logoColor=white&labelColor=0a0a1a)
+![Followers](https://img.shields.io/github/followers/clintmadeit?label=Followers&style=for-the-badge&color=06b6d4&logo=github&logoColor=white&labelColor=0a0a1a&v=2)
 ![Profile Views](https://komarev.com/ghpvc/?username=clintmadeit&color=ec4899&style=for-the-badge&label=Profile+Views)
 
 <br/>
